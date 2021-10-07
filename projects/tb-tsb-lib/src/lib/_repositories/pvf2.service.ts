@@ -13,8 +13,8 @@ import { Observable } from 'rxjs';
 export class Pvf2RepositoryService implements RepositoryModel {
   id = 'pvf2';
   label = 'PVF2';
-  apiUrl = `http://51.38.37.216:9200/pvf2/_search`;
-  apiUrl2 = `http://51.38.37.216:9200/pvf2/pvf2/`;
+  apiUrl = `https://api-veglab.tela-botanica.org/es-proxy/pvf2/_search`;
+  apiUrl2 = `https://api-veglab.tela-botanica.org/es-proxy/pvf2/_search`;
   levels = ['microcenosis', 'synusy'];
   description_fr = `Prodrome des végétations de France. Référentiel syntaxonomique (végétations)
                     pour la France métropolitaine coordonné par le Museum national d\'Histoire

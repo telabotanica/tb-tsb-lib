@@ -13,8 +13,8 @@ import { Observable } from 'rxjs';
 export class BaseflorRepositoryService implements RepositoryModel {
   id = 'baseflor';
   label = 'baseflor';
-  apiUrl = `http://51.38.37.216:9200/baseflor/_search`;
-  apiUrl2 = `http://51.38.37.216:9200/baseflor/baseflor/`;
+  apiUrl = `https://api-veglab.tela-botanica.org/es-proxy/baseflor/_search`;
+  apiUrl2 = `https://api-veglab.tela-botanica.org/es-proxy/baseflor/_search`;
   levels = ['idiotaxon'];
   description_fr = 'Référentiel taxonomique (espèces) pour la France métropolitaine issu du projet CATMINAT, par Philippe Julve.';
 

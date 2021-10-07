@@ -27,14 +27,14 @@ describe('BasevegRepositoryService', () => {
   it('findElement() should request API via POST', async(() => {
     let testResponse: any;
     service.findElement('carici').subscribe(results => testResponse = results);
-    const req = http.expectOne('http://51.38.37.216:9200/baseveg/_search');
+    const req = http.expectOne('https://api-veglab.tela-botanica.org/es-proxy/baseveg/_search');
     expect(req.request.method).toBe('POST');
   }));
 
   it('findElement() response should be a json object', async(() => {
     let testResponse: any;
     service.findElement('carici').subscribe(results => testResponse = results);
-    const req = http.expectOne('http://51.38.37.216:9200/baseveg/_search');
+    const req = http.expectOne('https://api-veglab.tela-botanica.org/es-proxy/baseveg/_search');
     expect(req.request.responseType).toBe('json');
   }));
 

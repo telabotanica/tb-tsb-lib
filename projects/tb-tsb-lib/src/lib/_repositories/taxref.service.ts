@@ -13,8 +13,8 @@ import { Observable } from 'rxjs';
 export class TaxrefRepositoryService implements RepositoryModel {
   id = 'taxref';
   label = 'Taxref';
-  apiUrl = `http://51.38.37.216:9200/taxref/_search`;
-  apiUrl2 = `http://51.38.37.216:9200/taxref/_search`;
+  apiUrl = `https://api-veglab.tela-botanica.org/es-proxy/taxref/_search`;
+  apiUrl2 = `https://api-veglab.tela-botanica.org/es-proxy/taxref/_search`;
   levels = ['idiotaxon'];
   description_fr = `Référentiel taxonomique pour la France : méthodologie, mise en œuvre et diffusion. Muséum national d’Histoire naturelle, Paris..`;
 

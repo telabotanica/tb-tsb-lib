@@ -13,8 +13,8 @@ import { Observable } from 'rxjs';
 export class BssRepositoryService implements RepositoryModel {
   id = 'bss';
   label = 'BSS';
-  apiUrl = `http://51.38.37.216:9200/bss/_search`;
-  apiUrl2 = `http://51.38.37.216:9200/bss/_search`;
+  apiUrl = `https://api-veglab.tela-botanica.org/es-proxy/bss/_search`;
+  apiUrl2 = `https://api-veglab.tela-botanica.org/es-proxy/bss/_search`;
   levels = ['microcenosis', 'synusy'];
   description_fr = 'Liste des végétations du nord-ouest de la France (Haute-Normandie, Nord - Pas de Calais et Picardie) avec évaluation patrimoniale. Référentiel syntaxonomique et référentiel des statuts des végétations de DIGITALE.';
 

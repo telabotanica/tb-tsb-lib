@@ -13,8 +13,8 @@ import { Observable } from 'rxjs';
 export class BasevegRepositoryService implements RepositoryModel {
   id = 'baseveg';
   label = 'baseveg';
-  apiUrl = `http://51.38.37.216:9200/baseveg/_search`;
-  apiUrl2 = `http://51.38.37.216:9200/baseveg/baseveg/`;
+  apiUrl = `https://api-veglab.tela-botanica.org/es-proxy/baseveg/_search`;
+  apiUrl2 = `https://api-veglab.tela-botanica.org/es-proxy/baseveg/_search`;
   levels = ['synusy', 'microcenosis'];
   description_fr = 'Référentiel syntaxonomique (végétations) pour la France métropolitaine issu du projet CATMINAT, par Philippe Julve.';
 

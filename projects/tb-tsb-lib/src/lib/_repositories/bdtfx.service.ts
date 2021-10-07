@@ -13,8 +13,8 @@ import { Observable } from 'rxjs';
 export class BdtfxRepositoryService implements RepositoryModel {
   id = 'bdtfx';
   label = 'bdtfx';
-  apiUrl = `http://51.38.37.216:9200/bdtfx/_search`;
-  apiUrl2 = `http://51.38.37.216:9200/bdtfx/bdtfx/`;
+  apiUrl = `https://api-veglab.tela-botanica.org/es-proxy/bdtfx/_search`;
+  apiUrl2 = `https://api-veglab.tela-botanica.org/es-proxy/bdtfx/_search`;
   levels = ['idiotaxon'];
   description_fr = `Base de données des trachéophytes de France métropolitaine.
                     Référentiel taxonomique (espèces) coordonné par Tela Botanica et géré par
