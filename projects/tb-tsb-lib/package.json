@@ -1,6 +1,6 @@
 {
   "name": "tb-tsb-lib",
-  "version": "0.5.8-vl.5",
+  "version": "0.6.0",
   "peerDependencies": {
     "@angular/common": "6.0 - 7.2",
     "@angular/core": "6.0 - 7.2",
@@ -9,3 +9,4 @@
     "rxjs": "^6.x"
   }
 }
+
